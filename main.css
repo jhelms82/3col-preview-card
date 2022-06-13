@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "specimen", "Lexend", "Deca", sans-serif;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.flex-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 30px;
+  height: 100vh;
+}
+
+/* Left Box css */
+.item-left {
+  background-color: hsl(31, 77%, 52%);
+  padding: 10px;
+  height: 490px;
+  width: 340px;
+  border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  -ms-border-radius: 10px 0 0 10px;
+  -o-border-radius: 10px 0 0 10px;
+}
+
+.icon-left {
+  width: 45px;
+
+  padding: 30px;
+}
+
+.heading-left {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  color: hsl(0, 0%, 95%);
+}
+
+.heading-left h3 {
+  font-weight: 700;
+  font-size: 38px;
+}
+.item-left p {
+  font-size: 15px;
+  padding-right: 115px;
+  margin: 0 0 0 30px;
+  line-height: 1.3rem;
+
+  font-weight: 400;
+}
+
+.left-btn {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+.left-btn button {
+  width: 165px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.left-btn button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+/* Middle Box CSS */
+.item-middle {
+  padding: 10px;
+  background-color: hsl(184, 100%, 22%);
+  height: 490px;
+  width: 340px;
+}
+
+.icon-middle {
+  width: 45px;
+
+  padding: 30px;
+}
+
+.heading-middle {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  color: hsl(0, 0%, 95%);
+}
+
+.heading-middle h3 {
+  font-weight: 700;
+  font-size: 38px;
+}
+.item-middle p {
+  font-size: 15px;
+  padding-right: 115px;
+  margin: 0 0 0 30px;
+  line-height: 1.3rem;
+
+  font-weight: 400;
+}
+
+.middle-btn {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+.middle-btn button {
+  width: 165px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.middle-btn button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+/* Right Box CSS */
+.item-right {
+  background-color: hsl(179, 100%, 13%);
+  padding: 10px;
+  height: 490px;
+  width: 340px;
+  border-radius: 0 10px 10px 0;
+  -webkit-border-radius: 0 10px 10px 0;
+  -moz-border-radius: 0 10px 10px 0;
+  -ms-border-radius: 0 10px 10px 0;
+  -o-border-radius: 0 10px 10px 0;
+}
+
+.icon-right {
+  width: 45px;
+
+  padding: 30px;
+}
+
+.heading-right {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  color: hsl(0, 0%, 95%);
+}
+
+.heading-right h3 {
+  font-weight: 700;
+  font-size: 38px;
+}
+.item-right p {
+  font-size: 15px;
+  padding-right: 115px;
+  margin: 0 0 0 30px;
+  line-height: 1.3rem;
+
+  font-weight: 400;
+}
+
+.right-btn {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.right-btn button {
+  width: 165px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.right-btn button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 1000px) {
+  .flex-container {
+    flex-direction: column;
+    height: 1000px;
+  }
+  .item-left,
+  .item-right {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+}
